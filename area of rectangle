@@ -1,0 +1,13 @@
+class rec:
+
+  length = 10
+  breadth = 20
+  def area (self,len,br):
+   self.length = len
+   self.breadth = br
+   area = self.length*self.breadth
+   print("area of rectangle:", area)
+   print("length of rectangle:",self.length)
+   print("length of rectangle:",self.breadth)
+a=rec()
+a.area(2,4)    
